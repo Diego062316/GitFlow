@@ -12,6 +12,8 @@ public class Main {
                 "Ingeniero en electronica", facultad, Modalidad.PRESENCIAL));
         Carrera  minas = new Carrera ("132", "Minas",
                 "Ingeniero en minas", facultad, Modalidad.PRESENCIAL);
+        Carrera telecomunicaciones = new Carrera ("213", "Telecomunicaciones",
+                "Ingeniero en telecomunicaciones", facultad, Modalidad.PRESENCIAL);
 
        computacion.crearCiclos(9);
        computacion.crearAsignatura(2, "POO");
